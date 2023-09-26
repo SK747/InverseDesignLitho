@@ -1,0 +1,938 @@
+CONFIGURATION FILE {'root': 'c:\\Users\\shahe\\Documents\\GitHub\\InverseDesignLitho\\ysplitter_topological', 'lumapi': 'C:\\Program Files\\Lumerical\\v231\\api\\python'}
+STEP 1: TOPOLOGY OPTIMIZATION INITIALIZATION.          Pretty sure this is where the geometry is set up for the shape that is imported.
+STEP 2: SET UP FIGURE OF MERIT MONITOR OR SOMETHING
+STEP 3: OPTIMIZER INITIALIZATION.    This just sets up the SciPy optimizer
+STEP 5: OPTIMIZATION OBJECT SETUP
+working_dir = c:\Users\shahe\Documents\GitHub\InverseDesignLitho\ysplitter_topological\splitter_2D_TE_topo_x3000_y1800_f0150
+self = <lumopt.optimization.Optimization object at 0x000002958BC76CA0>
+STEP 6: INITIALIZING OPTIMIZATION
+Wavelength range of source object will be superseded by the global settings.
+Scaling factor is 747.6938082051074
+THIS FUNCTION RUNS FROM THE SUPEROPTIMIZER
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [0.5 0.5 0.5 ... 0.5 0.5 0.5]
+Actual fom: 0.046627227433975516, Penalty term: 0, Total fom: 0.046627227433975516
+Saved frame
+Actual fom: 0.29757979812922974, Penalty term: 0, Total fom: 0.29757979812922974
+Saved frame
+Actual fom: 0.08891414604944547, Penalty term: 0, Total fom: 0.08891414604944547
+Actual fom: 0.4077645056561242, Penalty term: 0, Total fom: 0.4077645056561242
+Saved frame
+Actual fom: 0.4442712040228982, Penalty term: 0, Total fom: 0.4442712040228982
+Saved frame
+Actual fom: 0.4734538499690173, Penalty term: 0, Total fom: 0.4734538499690173
+Saved frame
+Actual fom: 0.48168905665083106, Penalty term: 0, Total fom: 0.48168905665083106
+Saved frame
+Actual fom: 0.4867726934869303, Penalty term: 0, Total fom: 0.4867726934869303
+Saved frame
+Actual fom: 0.49179247210046606, Penalty term: 0, Total fom: 0.49179247210046606
+Saved frame
+Actual fom: 0.4920743101255677, Penalty term: 0, Total fom: 0.4920743101255677
+Saved frame
+Actual fom: 0.49388100969939686, Penalty term: 0, Total fom: 0.49388100969939686
+Saved frame
+Actual fom: 0.49420515188662517, Penalty term: 0, Total fom: 0.49420515188662517
+Saved frame
+Actual fom: 0.49484143721963125, Penalty term: 0, Total fom: 0.49484143721963125
+Saved frame
+Actual fom: 0.4954762917809039, Penalty term: 0, Total fom: 0.4954762917809039
+Saved frame
+Actual fom: 0.49645658683492344, Penalty term: 0, Total fom: 0.49645658683492344
+Saved frame
+Actual fom: 0.496729603427972, Penalty term: 0, Total fom: 0.496729603427972
+Saved frame
+Actual fom: 0.49723959866904, Penalty term: 0, Total fom: 0.49723959866904
+Saved frame
+Actual fom: 0.4974247580412724, Penalty term: 0, Total fom: 0.4974247580412724
+Saved frame
+Actual fom: 0.49759350389437995, Penalty term: 0, Total fom: 0.49759350389437995
+Saved frame
+Actual fom: 0.49776632795534304, Penalty term: 0, Total fom: 0.49776632795534304
+Saved frame
+Actual fom: 0.4978793960867671, Penalty term: 0, Total fom: 0.4978793960867671
+Saved frame
+Actual fom: 0.49804215229474913, Penalty term: 0, Total fom: 0.49804215229474913
+Saved frame
+Actual fom: 0.49816938475026584, Penalty term: 0, Total fom: 0.49816938475026584
+Saved frame
+Actual fom: 0.49835695133661195, Penalty term: 0, Total fom: 0.49835695133661195
+Saved frame
+Actual fom: 0.4984684695653361, Penalty term: 0, Total fom: 0.4984684695653361
+Saved frame
+Actual fom: 0.4985064079020063, Penalty term: 0, Total fom: 0.4985064079020063
+Saved frame
+Actual fom: 0.49858742653913, Penalty term: 0, Total fom: 0.49858742653913
+Saved frame
+Actual fom: 0.4986692698413221, Penalty term: 0, Total fom: 0.4986692698413221
+Saved frame
+Actual fom: 0.49877336710272413, Penalty term: 0, Total fom: 0.49877336710272413
+Saved frame
+Actual fom: 0.4989002610377078, Penalty term: 0, Total fom: 0.4989002610377078
+Saved frame
+Actual fom: 0.4989654907912321, Penalty term: 0, Total fom: 0.4989654907912321
+Saved frame
+Actual fom: 0.49901129155711443, Penalty term: 0, Total fom: 0.49901129155711443
+Saved frame
+Actual fom: 0.4990516240272872, Penalty term: 0, Total fom: 0.4990516240272872
+Saved frame
+Actual fom: 0.4990893003640843, Penalty term: 0, Total fom: 0.4990893003640843
+Saved frame
+Actual fom: 0.49911209386008126, Penalty term: 0, Total fom: 0.49911209386008126
+Saved frame
+Actual fom: 0.4991487598128793, Penalty term: 0, Total fom: 0.4991487598128793
+Saved frame
+Actual fom: 0.49919121210133177, Penalty term: 0, Total fom: 0.49919121210133177
+Saved frame
+Actual fom: 0.49920126859923275, Penalty term: 0, Total fom: 0.49920126859923275
+Saved frame
+Actual fom: 0.4992238739761703, Penalty term: 0, Total fom: 0.4992238739761703
+Saved frame
+Actual fom: 0.4992355522990498, Penalty term: 0, Total fom: 0.4992355522990498
+Saved frame
+Actual fom: 0.4992552606324042, Penalty term: 0, Total fom: 0.4992552606324042
+Saved frame
+Actual fom: 0.4992813890494837, Penalty term: 0, Total fom: 0.4992813890494837
+Saved frame
+Actual fom: 0.49931432569235057, Penalty term: 0, Total fom: 0.49931432569235057
+Saved frame
+Actual fom: 0.4993335132785156, Penalty term: 0, Total fom: 0.4993335132785156
+Saved frame
+Actual fom: 0.49934491455064756, Penalty term: 0, Total fom: 0.49934491455064756
+Saved frame
+Actual fom: 0.49935860441747193, Penalty term: 0, Total fom: 0.49935860441747193
+Saved frame
+Actual fom: 0.4993735108612145, Penalty term: 0, Total fom: 0.4993735108612145
+Saved frame
+Actual fom: 0.4993941938437101, Penalty term: 0, Total fom: 0.4993941938437101
+Saved frame
+Actual fom: 0.4994101196720053, Penalty term: 0, Total fom: 0.4994101196720053
+Saved frame
+Actual fom: 0.4994303016731101, Penalty term: 0, Total fom: 0.4994303016731101
+Saved frame
+Actual fom: 0.4994438335294169, Penalty term: 0, Total fom: 0.4994438335294169
+Saved frame
+Actual fom: 0.49945950684175755, Penalty term: 0, Total fom: 0.49945950684175755
+Saved frame
+Actual fom: 0.4994685571158751, Penalty term: 0, Total fom: 0.4994685571158751
+Saved frame
+Actual fom: 0.4994777858139494, Penalty term: 0, Total fom: 0.4994777858139494
+Saved frame
+Actual fom: 0.49948554418214286, Penalty term: 0, Total fom: 0.49948554418214286
+Saved frame
+Actual fom: 0.4994879454559422, Penalty term: 0, Total fom: 0.4994879454559422
+Saved frame
+Number of FOM evaluations: 54
+FINAL FOM = 373.4640440904984
+FINAL PARAMETERS = [0.2075099  0.19618919 0.21786572 ... 0.         0.         0.        ]
+ === Starting Binarization Phase === 
+Discreteness: 0.35834750412759386
+Beta is 1.2
+Scaling factor is 2.76861723748728
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [0.2075099  0.19618919 0.21786572 ... 0.         0.         0.        ]
+Actual fom: 0.499436470157425, Penalty term: 0, Total fom: 0.499436470157425
+Actual fom: 0.4994400205107966, Penalty term: 0, Total fom: 0.4994400205107966
+Saved frame
+Number of FOM evaluations: 1
+FINAL FOM = 1.3827582498771922
+FINAL PARAMETERS = [0.20746393 0.19613925 0.2178154  ... 0.         0.         0.        ]
+Discreteness: 0.3681425543059139
+Beta is 1.44
+Scaling factor is 309.2287647141651
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [0.20746393 0.19613925 0.2178154  ... 0.         0.         0.        ]
+Actual fom: 0.49898897683721877, Penalty term: 0, Total fom: 0.49898897683721877
+Actual fom: 0.49773226271339577, Penalty term: 0, Total fom: 0.49773226271339577
+Actual fom: 0.4994537928957721, Penalty term: 0, Total fom: 0.4994537928957721
+Saved frame
+Actual fom: 0.4994920623433964, Penalty term: 0, Total fom: 0.4994920623433964
+Saved frame
+Actual fom: 0.499519192791943, Penalty term: 0, Total fom: 0.499519192791943
+Saved frame
+Actual fom: 0.49952582227681375, Penalty term: 0, Total fom: 0.49952582227681375
+Saved frame
+Actual fom: 0.49953051412056615, Penalty term: 0, Total fom: 0.49953051412056615
+Saved frame
+Number of FOM evaluations: 5
+FINAL FOM = 154.46920381853448
+FINAL PARAMETERS = [0.19902316 0.18754265 0.20999663 ... 0.         0.         0.        ]
+Discreteness: 0.3775032120827092
+Beta is 1.728
+Scaling factor is 14.273290180039737
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [0.19902316 0.18754265 0.20999663 ... 0.         0.         0.        ]
+Actual fom: 0.4991828849116955, Penalty term: 0, Total fom: 0.4991828849116955
+Actual fom: 0.49926556565493385, Penalty term: 0, Total fom: 0.49926556565493385
+Saved frame
+Actual fom: 0.4995174337508965, Penalty term: 0, Total fom: 0.4995174337508965
+Saved frame
+Actual fom: 0.49952585804591576, Penalty term: 0, Total fom: 0.49952585804591576
+Saved frame
+Actual fom: 0.49953690012510166, Penalty term: 0, Total fom: 0.49953690012510166
+Saved frame
+Actual fom: 0.49953977000484107, Penalty term: 0, Total fom: 0.49953977000484107
+Saved frame
+Number of FOM evaluations: 5
+FINAL FOM = 7.130076093749407
+FINAL PARAMETERS = [0.19685216 0.18578218 0.20908205 ... 0.         0.         0.        ]
+Discreteness: 0.39242949336231414
+Beta is 2.0736
+Scaling factor is 205.93038117975743
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [0.19685216 0.18578218 0.20908205 ... 0.         0.         0.        ]
+Actual fom: 0.4989399366987095, Penalty term: 0, Total fom: 0.4989399366987095
+Actual fom: 0.49879631538687674, Penalty term: 0, Total fom: 0.49879631538687674
+Actual fom: 0.4994667511268799, Penalty term: 0, Total fom: 0.4994667511268799
+Saved frame
+Actual fom: 0.4994927066614957, Penalty term: 0, Total fom: 0.4994927066614957
+Saved frame
+Actual fom: 0.4995223554465986, Penalty term: 0, Total fom: 0.4995223554465986
+Saved frame
+Actual fom: 0.49953173535326045, Penalty term: 0, Total fom: 0.49953173535326045
+Saved frame
+Actual fom: 0.49953550204876374, Penalty term: 0, Total fom: 0.49953550204876374
+Saved frame
+Number of FOM evaluations: 5
+FINAL FOM = 102.86953634972342
+FINAL PARAMETERS = [0.19259453 0.18202878 0.20652812 ... 0.         0.         0.        ]
+Discreteness: 0.41190898032196155
+Beta is 2.48832
+Scaling factor is 8.471032738143235
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [0.19259453 0.18202878 0.20652812 ... 0.         0.         0.        ]
+Actual fom: 0.498574057951096, Penalty term: 0, Total fom: 0.498574057951096
+Actual fom: 0.4987234067000804, Penalty term: 0, Total fom: 0.4987234067000804
+Saved frame
+Actual fom: 0.49946855379603927, Penalty term: 0, Total fom: 0.49946855379603927
+Saved frame
+Actual fom: 0.49948492355757634, Penalty term: 0, Total fom: 0.49948492355757634
+Saved frame
+Actual fom: 0.4995115394778108, Penalty term: 0, Total fom: 0.4995115394778108
+Saved frame
+Actual fom: 0.499518447781622, Penalty term: 0, Total fom: 0.499518447781622
+Saved frame
+Actual fom: 0.4995258745411931, Penalty term: 0, Total fom: 0.4995258745411931
+Saved frame
+Actual fom: 0.4995379238420764, Penalty term: 0, Total fom: 0.4995379238420764
+Saved frame
+Actual fom: 0.4995465438990849, Penalty term: 0, Total fom: 0.4995465438990849
+Saved frame
+Actual fom: 0.4995673665140212, Penalty term: 0, Total fom: 0.4995673665140212
+Saved frame
+Actual fom: 0.49948584144880304, Penalty term: 0, Total fom: 0.49948584144880304
+Actual fom: 0.4995754934355793, Penalty term: 0, Total fom: 0.4995754934355793
+Saved frame
+Actual fom: 0.4995865748884327, Penalty term: 0, Total fom: 0.4995865748884327
+Saved frame
+Actual fom: 0.4995951261082071, Penalty term: 0, Total fom: 0.4995951261082071
+Saved frame
+Actual fom: 0.4996028949041358, Penalty term: 0, Total fom: 0.4996028949041358
+Saved frame
+Actual fom: 0.49959666240669454, Penalty term: 0, Total fom: 0.49959666240669454
+Actual fom: 0.4996049030404043, Penalty term: 0, Total fom: 0.4996049030404043
+Saved frame
+Number of FOM evaluations: 14
+FINAL FOM = 4.232169489792141
+FINAL PARAMETERS = [0.23998107 0.23505764 0.26218331 ... 0.         0.         0.        ]
+Discreteness: 0.42679131199285825
+Beta is 2.9859839999999997
+Scaling factor is 593.8529163816746
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [0.23998107 0.23505764 0.26218331 ... 0.         0.         0.        ]
+Actual fom: 0.49804950963737105, Penalty term: 0, Total fom: 0.49804950963737105
+Actual fom: 0.44974535096157775, Penalty term: 0, Total fom: 0.44974535096157775
+Actual fom: 0.4994426333340295, Penalty term: 0, Total fom: 0.4994426333340295
+Saved frame
+Actual fom: 0.499509895528633, Penalty term: 0, Total fom: 0.499509895528633
+Saved frame
+Actual fom: 0.4995906452100467, Penalty term: 0, Total fom: 0.4995906452100467
+Saved frame
+Actual fom: 0.49960911938880237, Penalty term: 0, Total fom: 0.49960911938880237
+Saved frame
+Actual fom: 0.49960504965639807, Penalty term: 0, Total fom: 0.49960504965639807
+Actual fom: 0.49961535623754805, Penalty term: 0, Total fom: 0.49961535623754805
+Saved frame
+Actual fom: 0.4996181991323674, Penalty term: 0, Total fom: 0.4996181991323674
+Saved frame
+Number of FOM evaluations: 6
+FINAL FOM = 296.6997246321166
+FINAL PARAMETERS = [0.22248883 0.21662733 0.24437251 ... 0.         0.         0.        ]
+Discreteness: 0.463929188208835
+Beta is 3.5831807999999996
+Scaling factor is 16.790419713296107
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [0.22248883 0.21662733 0.24437251 ... 0.         0.         0.        ]
+Actual fom: 0.4976232471520944, Penalty term: 0, Total fom: 0.4976232471520944
+Actual fom: 0.49829520970185825, Penalty term: 0, Total fom: 0.49829520970185825
+Saved frame
+Actual fom: 0.4994666160589363, Penalty term: 0, Total fom: 0.4994666160589363
+Saved frame
+Actual fom: 0.49950276632350044, Penalty term: 0, Total fom: 0.49950276632350044
+Saved frame
+Actual fom: 0.49956083363502424, Penalty term: 0, Total fom: 0.49956083363502424
+Saved frame
+Actual fom: 0.4995723519786248, Penalty term: 0, Total fom: 0.4995723519786248
+Saved frame
+Actual fom: 0.4995647502455641, Penalty term: 0, Total fom: 0.4995647502455641
+Actual fom: 0.4995774005831456, Penalty term: 0, Total fom: 0.4995774005831456
+Saved frame
+Actual fom: 0.4995812290798729, Penalty term: 0, Total fom: 0.4995812290798729
+Saved frame
+Number of FOM evaluations: 7
+FINAL FOM = 8.388178517135396
+FINAL PARAMETERS = [0.20635768 0.19973891 0.22818695 ... 0.         0.         0.        ]
+Discreteness: 0.5093672159081639
+Beta is 4.299816959999999
+Scaling factor is 348.6331665168509
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [0.20635768 0.19973891 0.22818695 ... 0.         0.         0.        ]
+Actual fom: 0.49726172637306787, Penalty term: 0, Total fom: 0.49726172637306787
+Actual fom: 0.46227847050670734, Penalty term: 0, Total fom: 0.46227847050670734
+Actual fom: 0.49930696170521216, Penalty term: 0, Total fom: 0.49930696170521216
+Saved frame
+Actual fom: 0.4993851857732058, Penalty term: 0, Total fom: 0.4993851857732058
+Saved frame
+Actual fom: 0.4994862984827282, Penalty term: 0, Total fom: 0.4994862984827282
+Saved frame
+Actual fom: 0.4995004872477692, Penalty term: 0, Total fom: 0.4995004872477692
+Saved frame
+Actual fom: 0.4995117350295175, Penalty term: 0, Total fom: 0.4995117350295175
+Saved frame
+Actual fom: 0.49951719326703636, Penalty term: 0, Total fom: 0.49951719326703636
+Saved frame
+Actual fom: 0.4995279692783313, Penalty term: 0, Total fom: 0.4995279692783313
+Saved frame
+Actual fom: 0.4995464027461274, Penalty term: 0, Total fom: 0.4995464027461274
+Saved frame
+Actual fom: 0.49955731534527503, Penalty term: 0, Total fom: 0.49955731534527503
+Saved frame
+Actual fom: 0.4995744703610828, Penalty term: 0, Total fom: 0.4995744703610828
+Saved frame
+Actual fom: 0.49958201896501897, Penalty term: 0, Total fom: 0.49958201896501897
+Saved frame
+Actual fom: 0.49959677180116635, Penalty term: 0, Total fom: 0.49959677180116635
+Saved frame
+Actual fom: 0.49961065507140057, Penalty term: 0, Total fom: 0.49961065507140057
+Saved frame
+Actual fom: 0.4996163542238502, Penalty term: 0, Total fom: 0.4996163542238502
+Saved frame
+Actual fom: 0.4996262834303048, Penalty term: 0, Total fom: 0.4996262834303048
+Saved frame
+Actual fom: 0.49963771981412675, Penalty term: 0, Total fom: 0.49963771981412675
+Saved frame
+Actual fom: 0.499628536831511, Penalty term: 0, Total fom: 0.499628536831511
+Actual fom: 0.4996413706001217, Penalty term: 0, Total fom: 0.4996413706001217
+Saved frame
+Number of FOM evaluations: 17
+FINAL FOM = 174.19155315513984
+FINAL PARAMETERS = [0.28510119 0.28529843 0.31438559 ... 0.         0.         0.        ]
+Discreteness: 0.5483888776945285
+Beta is 5.159780351999999
+Scaling factor is 10.689525682728807
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [0.28510119 0.28529843 0.31438559 ... 0.         0.         0.        ]
+Actual fom: 0.4969549488775489, Penalty term: 0, Total fom: 0.4969549488775489
+Actual fom: 0.4976921655529676, Penalty term: 0, Total fom: 0.4976921655529676
+Saved frame
+Actual fom: 0.4994771246380665, Penalty term: 0, Total fom: 0.4994771246380665
+Saved frame
+Actual fom: 0.4995248242400856, Penalty term: 0, Total fom: 0.4995248242400856
+Saved frame
+Actual fom: 0.4995857931731782, Penalty term: 0, Total fom: 0.4995857931731782
+Saved frame
+Actual fom: 0.4996151760891745, Penalty term: 0, Total fom: 0.4996151760891745
+Saved frame
+Actual fom: 0.49962483250848844, Penalty term: 0, Total fom: 0.49962483250848844
+Saved frame
+Actual fom: 0.49963337897094773, Penalty term: 0, Total fom: 0.49963337897094773
+Saved frame
+Actual fom: 0.4996367845695239, Penalty term: 0, Total fom: 0.4996367845695239
+Saved frame
+Number of FOM evaluations: 8
+FINAL FOM = 5.340880240691965
+FINAL PARAMETERS = [2.53550423e-01 2.52265854e-01 2.82643951e-01 ... 5.75121295e-05
+ 5.65074647e-05 5.10774270e-05]
+Discreteness: 0.606514643888862
+Beta is 6.191736422399999
+Scaling factor is 706.1135858207791
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [2.53550423e-01 2.52265854e-01 2.82643951e-01 ... 5.75121295e-05
+ 5.65074647e-05 5.10774270e-05]
+Actual fom: 0.4971682663553827, Penalty term: 0, Total fom: 0.4971682663553827
+Actual fom: 0.20525417529054957, Penalty term: 0, Total fom: 0.20525417529054957
+Actual fom: 0.4991460987778009, Penalty term: 0, Total fom: 0.4991460987778009
+Saved frame
+Actual fom: 0.499458612960328, Penalty term: 0, Total fom: 0.499458612960328
+Saved frame
+Actual fom: 0.49949423946132787, Penalty term: 0, Total fom: 0.49949423946132787
+Saved frame
+Actual fom: 0.4995658984498501, Penalty term: 0, Total fom: 0.4995658984498501
+Saved frame
+Actual fom: 0.49957930254729266, Penalty term: 0, Total fom: 0.49957930254729266
+Saved frame
+Actual fom: 0.49958819093281026, Penalty term: 0, Total fom: 0.49958819093281026
+Saved frame
+Actual fom: 0.4995944843755481, Penalty term: 0, Total fom: 0.4995944843755481
+Saved frame
+Actual fom: 0.49960112498491216, Penalty term: 0, Total fom: 0.49960112498491216
+Saved frame
+Actual fom: 0.49960519718649676, Penalty term: 0, Total fom: 0.49960519718649676
+Saved frame
+Number of FOM evaluations: 9
+FINAL FOM = 352.77801728005466
+FINAL PARAMETERS = [2.30388047e-01 2.28128529e-01 2.59631893e-01 ... 6.82745464e-05
+ 7.11556886e-05 6.68031095e-05]
+Discreteness: 0.664290511925274
+Beta is 7.430083706879999
+Scaling factor is 6.6948983688981745
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [2.30388047e-01 2.28128529e-01 2.59631893e-01 ... 6.82745464e-05
+ 7.11556886e-05 6.68031095e-05]
+Actual fom: 0.4974591310801877, Penalty term: 0, Total fom: 0.4974591310801877
+Actual fom: 0.49795720777405816, Penalty term: 0, Total fom: 0.49795720777405816
+Saved frame
+Actual fom: 0.4994234794909497, Penalty term: 0, Total fom: 0.4994234794909497
+Saved frame
+Actual fom: 0.49945941079600953, Penalty term: 0, Total fom: 0.49945941079600953
+Saved frame
+Actual fom: 0.4994941038122058, Penalty term: 0, Total fom: 0.4994941038122058
+Saved frame
+Actual fom: 0.4995223788866149, Penalty term: 0, Total fom: 0.4995223788866149
+Saved frame
+Actual fom: 0.49954175828334657, Penalty term: 0, Total fom: 0.49954175828334657
+Saved frame
+Actual fom: 0.4995471461405827, Penalty term: 0, Total fom: 0.4995471461405827
+Saved frame
+Actual fom: 0.4995581572939616, Penalty term: 0, Total fom: 0.4995581572939616
+Saved frame
+Actual fom: 0.4995632295541673, Penalty term: 0, Total fom: 0.4995632295541673
+Saved frame
+Actual fom: 0.4995709251391056, Penalty term: 0, Total fom: 0.4995709251391056
+Saved frame
+Actual fom: 0.4995808769975172, Penalty term: 0, Total fom: 0.4995808769975172
+Saved frame
+Actual fom: 0.4995896570326872, Penalty term: 0, Total fom: 0.4995896570326872
+Saved frame
+Actual fom: 0.4995980006792664, Penalty term: 0, Total fom: 0.4995980006792664
+Saved frame
+Actual fom: 0.4996041145517669, Penalty term: 0, Total fom: 0.4996041145517669
+Saved frame
+Actual fom: 0.49960916020531143, Penalty term: 0, Total fom: 0.49960916020531143
+Saved frame
+Actual fom: 0.49962125968815496, Penalty term: 0, Total fom: 0.49962125968815496
+Saved frame
+Actual fom: 0.4996327774355319, Penalty term: 0, Total fom: 0.4996327774355319
+Saved frame
+Actual fom: 0.4996462841919882, Penalty term: 0, Total fom: 0.4996462841919882
+Saved frame
+Actual fom: 0.4996572524474663, Penalty term: 0, Total fom: 0.4996572524474663
+Saved frame
+Actual fom: 0.499660935677366, Penalty term: 0, Total fom: 0.499660935677366
+Saved frame
+Number of FOM evaluations: 20
+FINAL FOM = 3.3451791832685336
+FINAL PARAMETERS = [0.31573592 0.31960664 0.34937237 ... 0.         0.         0.        ]
+Discreteness: 0.7093904154280664
+Beta is 8.916100448255998
+Scaling factor is 154.12526221681736
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [0.31573592 0.31960664 0.34937237 ... 0.         0.         0.        ]
+Actual fom: 0.49763244745290136, Penalty term: 0, Total fom: 0.49763244745290136
+Actual fom: 0.48277959920317826, Penalty term: 0, Total fom: 0.48277959920317826
+Actual fom: 0.4994876728770239, Penalty term: 0, Total fom: 0.4994876728770239
+Saved frame
+Actual fom: 0.49955335349728347, Penalty term: 0, Total fom: 0.49955335349728347
+Saved frame
+Actual fom: 0.4995954525852647, Penalty term: 0, Total fom: 0.4995954525852647
+Saved frame
+Actual fom: 0.49961681698468785, Penalty term: 0, Total fom: 0.49961681698468785
+Saved frame
+Actual fom: 0.4996240577230886, Penalty term: 0, Total fom: 0.4996240577230886
+Saved frame
+Actual fom: 0.49963390313145173, Penalty term: 0, Total fom: 0.49963390313145173
+Saved frame
+Actual fom: 0.4996456880779061, Penalty term: 0, Total fom: 0.4996456880779061
+Saved frame
+Actual fom: 0.4996524999381098, Penalty term: 0, Total fom: 0.4996524999381098
+Saved frame
+Actual fom: 0.4996591585201534, Penalty term: 0, Total fom: 0.4996591585201534
+Saved frame
+Actual fom: 0.4996624145364712, Penalty term: 0, Total fom: 0.4996624145364712
+Saved frame
+Number of FOM evaluations: 10
+FINAL FOM = 77.01060066032171
+FINAL PARAMETERS = [2.81267045e-01 2.84357867e-01 3.16614539e-01 ... 2.42621779e-06
+ 2.86420116e-06 2.89407522e-06]
+Discreteness: 0.7568109307982945
+Beta is 10.699320537907196
+Scaling factor is 10.667949724985947
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [2.81267045e-01 2.84357867e-01 3.16614539e-01 ... 2.42621779e-06
+ 2.86420116e-06 2.89407522e-06]
+Actual fom: 0.4980743261244568, Penalty term: 0, Total fom: 0.4980743261244568
+Actual fom: 0.4988393110689141, Penalty term: 0, Total fom: 0.4988393110689141
+Saved frame
+Actual fom: 0.4995485940314677, Penalty term: 0, Total fom: 0.4995485940314677
+Saved frame
+Actual fom: 0.4995737209953761, Penalty term: 0, Total fom: 0.4995737209953761
+Saved frame
+Actual fom: 0.49959748438521123, Penalty term: 0, Total fom: 0.49959748438521123
+Saved frame
+Actual fom: 0.49960851252563876, Penalty term: 0, Total fom: 0.49960851252563876
+Saved frame
+Actual fom: 0.4996192662945067, Penalty term: 0, Total fom: 0.4996192662945067
+Saved frame
+Actual fom: 0.4996269934650336, Penalty term: 0, Total fom: 0.4996269934650336
+Saved frame
+Actual fom: 0.49963358788414103, Penalty term: 0, Total fom: 0.49963358788414103
+Saved frame
+Actual fom: 0.4996424720033301, Penalty term: 0, Total fom: 0.4996424720033301
+Saved frame
+Actual fom: 0.49964987738684496, Penalty term: 0, Total fom: 0.49964987738684496
+Saved frame
+Actual fom: 0.49965620867535165, Penalty term: 0, Total fom: 0.49965620867535165
+Saved frame
+Actual fom: 0.4996583134450968, Penalty term: 0, Total fom: 0.4996583134450968
+Saved frame
+Number of FOM evaluations: 12
+FINAL FOM = 5.330329767503563
+FINAL PARAMETERS = [2.74151352e-01 2.77197932e-01 3.10117357e-01 ... 2.56495896e-06
+ 3.17087210e-06 3.27977762e-06]
+Discreteness: 0.7958145764222688
+Beta is 12.839184645488634
+The penalty scaling factor is 70.4230869223885
+Scaling factor is 2.061234509004466
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [2.74151352e-01 2.77197932e-01 3.10117357e-01 ... 2.56495896e-06
+ 3.17087210e-06 3.27977762e-06]
+Actual fom: 0.49842527765549405, Penalty term: -0.7513010524184843, Total fom: -0.2528757747629903
+Actual fom: 0.49803864623700045, Penalty term: -0.7354349533595365, Total fom: -0.237396307122536
+Saved frame
+Actual fom: 0.4858115764581705, Penalty term: -0.0428771666699622, Total fom: 0.4429344097882083
+Saved frame
+Actual fom: 0.4891936859246939, Penalty term: -0.030226152547396617, Total fom: 0.4589675333772973
+Saved frame
+Actual fom: 0.49227560261577874, Penalty term: -0.02496738204408846, Total fom: 0.4673082205716903
+Saved frame
+Actual fom: 0.4958801911177997, Penalty term: -0.01659709858348546, Total fom: 0.4792830925343142
+Saved frame
+Actual fom: 0.49617760807446176, Penalty term: -0.01433206995774765, Total fom: 0.4818455381167141
+Saved frame
+Actual fom: 0.49637302580806086, Penalty term: -0.01183023342805009, Total fom: 0.4845427923800108
+Saved frame
+Actual fom: 0.49667944706822853, Penalty term: -0.010016221790810693, Total fom: 0.48666322527741784
+Saved frame
+Actual fom: 0.49703353656803617, Penalty term: -0.0087628517368644, Total fom: 0.48827068483117175
+Saved frame
+Actual fom: 0.4973308127999224, Penalty term: -0.007925236779188412, Total fom: 0.489405576020734
+Saved frame
+Actual fom: 0.49751012457497445, Penalty term: -0.007428905572869735, Total fom: 0.4900812190021047
+Saved frame
+Actual fom: 0.4975884029016847, Penalty term: -0.007097472525480381, Total fom: 0.49049093037620434
+Saved frame
+Actual fom: 0.4976256984752999, Penalty term: -0.006828381678323437, Total fom: 0.49079731679697647
+Saved frame
+Actual fom: 0.49762585666016645, Penalty term: -0.006758574821942465, Total fom: 0.490867281838224
+Saved frame
+Actual fom: 0.4976274832914135, Penalty term: -0.006690496744085456, Total fom: 0.49093698654732804
+Saved frame
+Actual fom: 0.49762451988599277, Penalty term: -0.006611568462801822, Total fom: 0.49101295142319096
+Saved frame
+Actual fom: 0.49762481665752756, Penalty term: -0.006597031597738472, Total fom: 0.4910277850597891
+Saved frame
+Actual fom: 0.4976273850745021, Penalty term: -0.006585849158807623, Total fom: 0.4910415359156945
+Saved frame
+Actual fom: 0.49762978352287457, Penalty term: -0.0065765481996132155, Total fom: 0.49105323532326134
+Saved frame
+Actual fom: 0.4976312131114866, Penalty term: -0.006568520336855786, Total fom: 0.4910626927746308
+Saved frame
+Actual fom: 0.4976319901940671, Penalty term: -0.006560836213135107, Total fom: 0.49107115398093204
+Saved frame
+Actual fom: 0.4976325002322416, Penalty term: -0.006553690475025291, Total fom: 0.4910788097572163
+Saved frame
+Actual fom: 0.49763368358309756, Penalty term: -0.006547527541683908, Total fom: 0.49108615604141365
+Saved frame
+Actual fom: 0.4976350647972063, Penalty term: -0.006541719664881954, Total fom: 0.4910933451323244
+Saved frame
+Actual fom: 0.4976358992572515, Penalty term: -0.006536036742042007, Total fom: 0.4910998625152095
+Saved frame
+Actual fom: 0.4976363310913251, Penalty term: -0.0065304860452095855, Total fom: 0.49110584504611554
+Saved frame
+Actual fom: 0.497636346121761, Penalty term: -0.006525113950083487, Total fom: 0.4911112321716775
+Saved frame
+Actual fom: 0.49763612615269437, Penalty term: -0.006519917630010257, Total fom: 0.4911162085226841
+Saved frame
+Actual fom: 0.497635551351597, Penalty term: -0.006514872893724864, Total fom: 0.4911206784578721
+Saved frame
+Number of FOM evaluations: 29
+FINAL FOM = 1.0123148905230521
+FINAL PARAMETERS = [1. 1. 1. ... 0. 0. 0.]
+Discreteness: 0.9627764995116626
+Beta is 15.407021574586361
+The penalty scaling factor is 1160.7796009696926
+Scaling factor is 5.5621600745707465
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [1. 1. 1. ... 0. 0. 0.]
+Actual fom: 0.49761451587441585, Penalty term: -0.09605877622757865, Total fom: 0.4015557396468372
+Actual fom: 0.49750693668858825, Penalty term: -0.09651249132005085, Total fom: 0.4009944453685374
+Actual fom: 0.49760107378407814, Penalty term: -0.09612680883446985, Total fom: 0.4014742649496083
+Actual fom: 0.4976125782391406, Penalty term: -0.09606905949080762, Total fom: 0.401543518748333
+Actual fom: 0.49761420666405853, Penalty term: -0.09606033459923603, Total fom: 0.4015538720648225
+Actual fom: 0.49761452234397396, Penalty term: -0.09605901185876467, Total fom: 0.4015555104852093
+Actual fom: 0.4976145119696216, Penalty term: -0.09605881384422732, Total fom: 0.40155569812539427
+Actual fom: 0.497614548505811, Penalty term: -0.09605878204401926, Total fom: 0.40155576646179175
+Actual fom: 0.49761457777307716, Penalty term: -0.09605878598395486, Total fom: 0.4015557917891223
+Actual fom: 0.49761453259064325, Penalty term: -0.0960587999140977, Total fom: 0.40155573267654554
+Actual fom: 0.49761453981219284, Penalty term: -0.09605878722257878, Total fom: 0.40155575258961407
+Actual fom: 0.4976145587744659, Penalty term: -0.09605878600764063, Total fom: 0.4015557727668253
+Actual fom: 0.49761457777307716, Penalty term: -0.09605878598395486, Total fom: 0.4015557917891223
+Saved frame
+Number of FOM evaluations: 1
+FINAL FOM = 2.2335175928021
+FINAL PARAMETERS = [1. 1. 1. ... 0. 0. 0.]
+Discreteness: 0.9692598410044313
+Beta is 18.48842588950363
+The penalty scaling factor is 4209.967052358098
+Scaling factor is 0.5640395538338906
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [1. 1. 1. ... 0. 0. 0.]
+Actual fom: 0.49750531422034483, Penalty term: -0.3285360488545292, Total fom: 0.16896926536581564
+Actual fom: 0.4974755536236485, Penalty term: -0.3291185400689522, Total fom: 0.1683570135546963
+Actual fom: 0.4975009532618251, Penalty term: -0.32862819869354387, Total fom: 0.1688727545682812
+Actual fom: 0.4975045896294493, Penalty term: -0.32855066594441273, Total fom: 0.1689539236850366
+Actual fom: 0.49750520355459216, Penalty term: -0.3285383671416486, Total fom: 0.16896683641294358
+Actual fom: 0.4975052616062947, Penalty term: -0.3285364167185488, Total fom: 0.16896884488774594
+Actual fom: 0.49750529646545116, Penalty term: -0.32853610595509436, Total fom: 0.1689691905103568
+Actual fom: 0.49750526581078847, Penalty term: -0.32853605739071573, Total fom: 0.16896920842007274
+Actual fom: 0.49750525058338535, Penalty term: -0.3285360494466593, Total fom: 0.16896920113672603
+Actual fom: 0.49750531422034483, Penalty term: -0.32853604885824633, Total fom: 0.1689692653620985
+Actual fom: 0.49750531422034483, Penalty term: -0.32853604885512544, Total fom: 0.1689692653652194
+Actual fom: 0.49750531422034483, Penalty term: -0.3285360488546253, Total fom: 0.16896926536571955
+Actual fom: 0.49750531422034483, Penalty term: -0.32853604885454457, Total fom: 0.16896926536580026
+Actual fom: 0.49750531422034483, Penalty term: -0.3285360488545318, Total fom: 0.16896926536581303
+Actual fom: 0.49750531422034483, Penalty term: -0.32853604885452964, Total fom: 0.1689692653658152
+Actual fom: 0.49750531422034483, Penalty term: -0.3285360488545293, Total fom: 0.16896926536581552
+Actual fom: 0.49750531422034483, Penalty term: -0.3285360488545292, Total fom: 0.16896926536581564
+Actual fom: 0.49750531422034483, Penalty term: -0.3285360488545292, Total fom: 0.16896926536581564
+Actual fom: 0.49750531422034483, Penalty term: -0.3285360488545293, Total fom: 0.16896926536581552
+Actual fom: 0.49750531422034483, Penalty term: -0.3285360488545293, Total fom: 0.16896926536581552
+Actual fom: 0.49750531422034483, Penalty term: -0.3285360488545292, Total fom: 0.16896926536581564
+Number of FOM evaluations: 0
+FINAL FOM = 0.09530534904857492
+FINAL PARAMETERS = [1. 1. 1. ... 0. 0. 0.]
+Discreteness: 0.9745777910711667
+Beta is 22.186111067404358
+The penalty scaling factor is 10000.0
+Scaling factor is 2.3905063676426668
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [1. 1. 1. ... 0. 0. 0.]
+Actual fom: 0.49740069641677387, Penalty term: -0.7533919855892084, Total fom: -0.2559912891724345
+Actual fom: 0.4969299498273566, Penalty term: -0.7652617965582214, Total fom: -0.26833184673086474
+Actual fom: 0.49736174953060086, Penalty term: -0.7553375548102204, Total fom: -0.2579758052796195
+Actual fom: 0.4973952291675673, Penalty term: -0.753702924530412, Total fom: -0.2563076953628447
+Actual fom: 0.49739989431342946, Penalty term: -0.7534417721468138, Total fom: -0.2560418778333844
+Actual fom: 0.49740057175238195, Penalty term: -0.7533999632247321, Total fom: -0.2559993914723502
+Actual fom: 0.4974006561247776, Penalty term: -0.7533932641311621, Total fom: -0.25599260800638457
+Actual fom: 0.49740070382726986, Penalty term: -0.7533921897383346, Total fom: -0.2559914859110647
+Actual fom: 0.49740068906569324, Penalty term: -0.7533920187108553, Total fom: -0.255991329645162
+Actual fom: 0.4974006691672257, Penalty term: -0.7533919906532963, Total fom: -0.2559913214860706
+Actual fom: 0.4974007090787532, Penalty term: -0.7533919859532826, Total fom: -0.2559912768745294
+Actual fom: 0.49740065865791483, Penalty term: -0.7533919862099673, Total fom: -0.25599132755205245
+Actual fom: 0.4974007090787532, Penalty term: -0.7533919859541889, Total fom: -0.25599127687543566
+Actual fom: 0.4974007090787532, Penalty term: -0.7533919859532826, Total fom: -0.2559912768745294
+Saved frame
+Number of FOM evaluations: 1
+FINAL FOM = -0.6119487774295395
+FINAL PARAMETERS = [1. 1. 1. ... 0. 0. 0.]
+Discreteness: 0.9789586368551301
+Beta is 26.62333328088523
+The penalty scaling factor is 10000.0
+Scaling factor is 0.5764488331460083
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [1. 1. 1. ... 0. 0. 0.]
+Actual fom: 0.4972917267042457, Penalty term: -0.7366615205603495, Total fom: -0.2393697938561038
+Actual fom: 0.4972324820506486, Penalty term: -0.7396221318225426, Total fom: -0.24238964977189392
+Actual fom: 0.49728410714959836, Penalty term: -0.7371375912191286, Total fom: -0.23985348406953022
+Actual fom: 0.4972905149402872, Penalty term: -0.7367379420055404, Total fom: -0.23944742706525324
+Actual fom: 0.4972914906717284, Penalty term: -0.7366737872427948, Total fom: -0.23938229657106636
+Actual fom: 0.49729167358517956, Penalty term: -0.7366634879602473, Total fom: -0.23937181437506772
+Actual fom: 0.4972917470243763, Penalty term: -0.736661835533629, Total fom: -0.23937008850925268
+Actual fom: 0.49729174900685236, Penalty term: -0.736661572083371, Total fom: -0.23936982307651866
+Actual fom: 0.49729176207175396, Penalty term: -0.7366615298023412, Total fom: -0.23936976773058727
+Actual fom: 0.49729168844634697, Penalty term: -0.7366615361560414, Total fom: -0.23936984770969438
+Actual fom: 0.497291659758747, Penalty term: -0.7366615300839148, Total fom: -0.23936987032516777
+Actual fom: 0.49729176207175396, Penalty term: -0.7366615298023412, Total fom: -0.23936976773058727
+Saved frame
+Number of FOM evaluations: 1
+FINAL FOM = -0.13798442329872806
+FINAL PARAMETERS = [1. 1. 1. ... 0. 0. 0.]
+Discreteness: 0.9825690206206706
+Beta is 31.947999937062274
+The penalty scaling factor is 10000.0
+Scaling factor is 2.4238460794537056
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [1. 1. 1. ... 0. 0. 0.]
+Actual fom: 0.4971855983640633, Penalty term: -0.7259060989476697, Total fom: -0.22872050058360638
+Actual fom: 0.49679975877131566, Penalty term: -0.7370198512084198, Total fom: -0.24022009243710418
+Actual fom: 0.4971543140646377, Penalty term: -0.7277228124738233, Total fom: -0.23056849840918558
+Actual fom: 0.49718124812921105, Penalty term: -0.7261997942418571, Total fom: -0.22901854611264605
+Actual fom: 0.4971848825705699, Penalty term: -0.7259533482314457, Total fom: -0.22876846566087583
+Actual fom: 0.4971854492707386, Penalty term: -0.7259136938724884, Total fom: -0.22872824460174979
+Actual fom: 0.49718556665319, Penalty term: -0.7259073183483691, Total fom: -0.22872175169517905
+Actual fom: 0.49718561042981635, Penalty term: -0.7259062944351132, Total fom: -0.22872068400529688
+Actual fom: 0.49718561475116396, Penalty term: -0.7259061309378011, Total fom: -0.22872051618663714
+Actual fom: 0.4971855867657802, Penalty term: -0.725906104812369, Total fom: -0.22872051804658877
+Actual fom: 0.4971855655564994, Penalty term: -0.725906099597741, Total fom: -0.2287205340412416
+Actual fom: 0.4971855983640633, Penalty term: -0.7259060989561505, Total fom: -0.22872050059208726
+Actual fom: 0.4971855983640633, Penalty term: -0.7259060989490367, Total fom: -0.2287205005849734
+Actual fom: 0.4971855983640633, Penalty term: -0.72590609894789, Total fom: -0.22872050058382676
+Actual fom: 0.4971855983640633, Penalty term: -0.7259060989477046, Total fom: -0.22872050058364135
+Actual fom: 0.4971855983640633, Penalty term: -0.7259060989476749, Total fom: -0.2287205005836116
+Actual fom: 0.4971855983640633, Penalty term: -0.7259060989476702, Total fom: -0.22872050058360693
+Actual fom: 0.4971855983640633, Penalty term: -0.7259060989476697, Total fom: -0.22872050058360638
+Actual fom: 0.4971855983640633, Penalty term: -0.7259060989476697, Total fom: -0.22872050058360638
+Actual fom: 0.4971855983640633, Penalty term: -0.72590609894767, Total fom: -0.2287205005836067
+Actual fom: 0.4971855983640633, Penalty term: -0.7259060989476697, Total fom: -0.22872050058360638
+Number of FOM evaluations: 0
+FINAL FOM = -0.5543832886302633
+FINAL PARAMETERS = [1. 1. 1. ... 0. 0. 0.]
+Discreteness: 0.9855407763798754
+Beta is 38.33759992447473
+The penalty scaling factor is 10000.0
+Scaling factor is 0.5808277750185994
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [1. 1. 1. ... 0. 0. 0.]
+Actual fom: 0.4970855585576983, Penalty term: -0.7188431956629928, Total fom: -0.2217576371052945
+Actual fom: 0.49703294207187576, Penalty term: -0.7215937482979405, Total fom: -0.22456080622606478
+Actual fom: 0.49707829419860383, Penalty term: -0.7192956317560942, Total fom: -0.2222173375574904
+Actual fom: 0.497084454523554, Penalty term: -0.7189164684135894, Total fom: -0.22183201389003537
+Actual fom: 0.49708545007781846, Penalty term: -0.7188550305410842, Total fom: -0.22176958046326578
+Actual fom: 0.49708557074834314, Penalty term: -0.7188451089000611, Total fom: -0.221759538151718
+Actual fom: 0.49708558818699466, Penalty term: -0.7188435060419278, Total fom: -0.22175791785493315
+Actual fom: 0.4970855916950251, Penalty term: -0.7188432470702102, Total fom: -0.2217576553751851
+Actual fom: 0.49708558351006793, Penalty term: -0.7188432054540554, Total fom: -0.22175762194398752
+Actual fom: 0.49708560098814547, Penalty term: -0.7188432125154327, Total fom: -0.22175761152728724
+Actual fom: 0.49708558585436446, Penalty term: -0.7188432297928262, Total fom: -0.22175764393846176
+Actual fom: 0.49708560169488425, Penalty term: -0.7188432148478072, Total fom: -0.22175761315292297
+Actual fom: 0.4970855501374034, Penalty term: -0.7188432129216543, Total fom: -0.2217576627842509
+Actual fom: 0.49708560098814547, Penalty term: -0.7188432125154327, Total fom: -0.22175761152728724
+Saved frame
+Number of FOM evaluations: 1
+FINAL FOM = -0.12880298009683316
+FINAL PARAMETERS = [1. 1. 1. ... 0. 0. 0.]
+Discreteness: 0.9879852965807985
+Beta is 46.005119909369675
+The penalty scaling factor is 10000.0
+Scaling factor is 2.4313357501265283
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [1. 1. 1. ... 0. 0. 0.]
+Actual fom: 0.49699317962619616, Penalty term: -0.7141294161255238, Total fom: -0.21713623649932767
+Actual fom: 0.49667915478562685, Penalty term: -0.7248393242371592, Total fom: -0.2281601694515324
+Actual fom: 0.49695871576803574, Penalty term: -0.7158455135967904, Total fom: -0.21888679782875464
+Actual fom: 0.49698786292075914, Penalty term: -0.7144134967053823, Total fom: -0.2174256337846232
+Actual fom: 0.49699233967340994, Penalty term: -0.7141756148148036, Total fom: -0.21718327514139368
+Actual fom: 0.49699303473113465, Penalty term: -0.7141369062241002, Total fom: -0.21714387149296555
+Actual fom: 0.49699315166266966, Penalty term: -0.7141306295289729, Total fom: -0.21713747786630322
+Actual fom: 0.4969931677676719, Penalty term: -0.7141296125175157, Total fom: -0.21713644474984384
+Actual fom: 0.4969931775835288, Penalty term: -0.714129447646384, Total fom: -0.21713627006285519
+Actual fom: 0.496993223348287, Penalty term: -0.7141294211796109, Total fom: -0.21713619783132387
+Actual fom: 0.4969931244243039, Penalty term: -0.7141294242837397, Total fom: -0.21713629985943583
+Actual fom: 0.49699317198489446, Penalty term: -0.7141294212428979, Total fom: -0.21713624925800346
+Actual fom: 0.496993223348287, Penalty term: -0.7141294211796109, Total fom: -0.21713619783132387
+Saved frame
+Number of FOM evaluations: 1
+FINAL FOM = -0.5279310004338441
+FINAL PARAMETERS = [1. 1. 1. ... 0. 0. 0.]
+Discreteness: 0.9899994344779767
+Beta is 55.206143891243606
+The penalty scaling factor is 10000.0
+Scaling factor is 0.5810482621098378
+Running scipy optimizer
+bounds = [[0. 1.]
+ [0. 1.]
+ [0. 1.]
+ ...
+ [0. 1.]
+ [0. 1.]
+ [0. 1.]]
+start = [1. 1. 1. ... 0. 0. 0.]
+Actual fom: 0.49690814694610175, Penalty term: -0.710937619568238, Total fom: -0.21402947262213623
+Actual fom: 0.496848206509785, Penalty term: -0.7134830078769147, Total fom: -0.21663480136712965
+Actual fom: 0.4968976936249364, Penalty term: -0.7113700046948316, Total fom: -0.21447231106989517
+Actual fom: 0.49690642121978335, Penalty term: -0.7110086999319575, Total fom: -0.21410227871217413
+Actual fom: 0.49690781084018854, Penalty term: -0.7109492194670105, Total fom: -0.21404140862682197
+Actual fom: 0.4969080693585448, Penalty term: -0.7109395083471236, Total fom: -0.2140314389885788
+Actual fom: 0.49690808159021227, Penalty term: -0.7109379262353536, Total fom: -0.2140298446451413
+Actual fom: 0.49690810229367777, Penalty term: -0.710937667551013, Total fom: -0.21402956525733519
+Actual fom: 0.4969081276895928, Penalty term: -0.7109376260949087, Total fom: -0.21402949840531593
+Actual fom: 0.49690804477682526, Penalty term: -0.710937620219364, Total fom: -0.21402957544253876
+Actual fom: 0.49690814694610175, Penalty term: -0.7109376195713342, Total fom: -0.21402947262523242
+Actual fom: 0.49690814694610175, Penalty term: -0.7109376195687444, Total fom: -0.2140294726226426
+Actual fom: 0.49690814694610175, Penalty term: -0.7109376195683204, Total fom: -0.2140294726222186
+Actual fom: 0.49690814694610175, Penalty term: -0.710937619568251, Total fom: -0.21402947262214922
+Actual fom: 0.49690814694610175, Penalty term: -0.7109376195682399, Total fom: -0.21402947262213812
+Actual fom: 0.49690814694610175, Penalty term: -0.710937619568238, Total fom: -0.21402947262213623
+Actual fom: 0.49690814694610175, Penalty term: -0.7109376195682385, Total fom: -0.21402947262213678
+Actual fom: 0.49690814694610175, Penalty term: -0.7109376195682379, Total fom: -0.21402947262213612
+Actual fom: 0.49690814694610175, Penalty term: -0.7109376195682383, Total fom: -0.21402947262213656
+Actual fom: 0.49690814694610175, Penalty term: -0.7109376195682379, Total fom: -0.21402947262213612
+Actual fom: 0.49690814694610175, Penalty term: -0.710937619568238, Total fom: -0.21402947262213623
+Number of FOM evaluations: 0
+FINAL FOM = -0.12436145310737738
+FINAL PARAMETERS = [1. 1. 1. ... 0. 0. 0.]
+Discreteness: 0.9916658132182182

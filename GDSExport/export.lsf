@@ -1,0 +1,20 @@
+#get index data
+index = getresult("opt_fields_index","index");
+#specify index threshold
+ind = 2.5;
+#extract contours
+contour = getcontour(index,"index_x", ind );
+#generate GDS
+f = gdsopen('exported.gds'); #creates gds in current working directory
+
+for ( i = 1:length(contour)){
+    cellname = "contour_" + num2str(contour{i}.level);
+    gdsbegincell(f, cellname);
+    for (i = 1 : length(contour{1}.polygons)){
+        a = contour{1}.polygons{i};
+        gdsaddpoly(f,1,a);
+    }
+    gdsendcell(f);
+}
+
+gdsclose(f);

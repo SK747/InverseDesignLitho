@@ -1,0 +1,8 @@
+# stage 3: importing a .gds file to FDTD
+# Note: If everything is imported properly, there will be two copies of all the objects:
+#       the original objects created in stage 1, and a copy from the GDSII file.
+
+gdsimport('exportedfixed.gds','TOP', 1);
+set("material","Si (Silicon) - Palik");
+set("z",0);
+set("z span", 2.2e-7);
